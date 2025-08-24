@@ -1,7 +1,7 @@
 document.getElementById('mHead').innerText="Hello World";
 document.getElementById('mPara').innerText="This is my paragraph";
 
-window.alert("Welcome to our page !")
+//window.alert("Welcome to our page !")
 
 let noOfDays = 7;
 
@@ -14,3 +14,12 @@ let age = 21;
 let isStudent = true;
 
 document.getElementById('new-para3').innerHTML=`<b>Name</b> = ${fullName}<br><b>Age</b> = ${age}<br><b>Studying</b> = ${isStudent}`;
+
+let userName = window.prompt("Tell us your user name :");
+let userAge = window.prompt("Tell us your age :");
+let whatIsUser = window.prompt("Tell us whether you are a professional / student :")
+
+document.getElementById('new-para4').innerHTML=`<h4>Visitor Section</h4><b>Name</b> = ${userName}<br><b>Age</b> = ${userAge}<br><b>Role :</b> = ${whatIsUser}<br>`;
+
+
+
