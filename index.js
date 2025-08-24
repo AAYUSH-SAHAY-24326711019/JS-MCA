@@ -28,6 +28,7 @@ document.getElementById("submit1").onclick=function(){
     let userAge = document.getElementById("inp2").value;
     let whatIsUser = document.getElementById("inp3").value;
     document.getElementById('new-para4').innerHTML=`<h4>Visitor Section</h4><b>Name</b> = ${userName}<br><b>Age</b> = ${userAge}<br><b>Role :</b> = ${whatIsUser}<br>`;
+    document.getElementById('mHead').textContent=`Hello ${userName}`;
 }
 
 
