@@ -1,0 +1,23 @@
+How to make yourself a frontend developer and
+what is the scope for that.
+
+front end is ui in a webapp / website
+what tools and tech, :
+
+html , css , js
+html : structure / body / raw material
+css  : styling of the structure / responses
+js   : scripting part of the ui .
+make the changes to the design / multi media
+components
+
+js:
+we do the dom manipulation , there is es6
+,asynchronus  {
+    call backs , promises , async/await
+}
+
+ui based js libraries : react [most modern]
+git will do the tracking of the code ,
+git hub will store the data as the repositry
+can be used in the projects
